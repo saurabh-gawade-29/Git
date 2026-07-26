@@ -1,0 +1,14 @@
+**Basic Git Commands**
+git init
+git status
+git add .
+git commit -m "message"
+
+**Ignore Files and Folder**
+create .gitignore file in root dir and add file and folders name in it.
+
+**IMP**
+git cannot ignore empty folders.
+create .gitkeep file inside that folder so you can track that empty folder
+
+** Branching **
