@@ -34,3 +34,15 @@ git tag <tag-name> - lightweight tag
 
 
 ** git rebase **
+to avoid merge commit we are using git rebase
+1. First we need to create feature branch with some changes and commit
+2. git rebase <branch-name> -- master/main
+3. check commit history using git log -- oneline
+4. then go to master and now merge this branch to <branch-name> -- master/main
+5. and now again check commit history no merge commit is there
+
+** Extra **
+git branch -M <new-branch> -- change branch name
+git pull -- pull from origin
+git push -- push to the origin
+git fetch -- fetch branch names and changes from origin
