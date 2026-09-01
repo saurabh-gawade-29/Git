@@ -31,3 +31,6 @@ git stash pop / git stash apply :  unstash
 ** git tags **
 git tag -a <tag-name>-m "<message>" -- annoted tag
 git tag <tag-name> - lightweight tag
+
+
+** git rebase **
