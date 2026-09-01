@@ -3,6 +3,7 @@ git init
 git status
 git add .
 git commit -m "message"
+git log --oneline
 
 **Ignore Files and Folder**
 create .gitignore file in root dir and add file and folders name in it.
@@ -12,3 +13,21 @@ git cannot ignore empty folders.
 create .gitkeep file inside that folder so you can track that empty folder
 
 ** Branching **
+git branch <branch-name> : create new branch
+git switch <branch-name> : Switch to branches
+git branch -d <branch-name> : delete branch
+git checkout -b <branch-name>
+** Merging **
+git merge <branch-name> : merge feature branch to master/main - it will create new commit automatically
+-- resolve merge coflicts by removing markers
+
+** Stashing **
+-- temp. store point
+
+git stash : temp store and working tree clean
+git stash list : list all the stashes
+git stash pop / git stash apply :  unstash
+
+** git tags **
+git tag -a <tag-name>-m "<message>" -- annoted tag
+git tag <tag-name> - lightweight tag
